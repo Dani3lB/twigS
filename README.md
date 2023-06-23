@@ -5,108 +5,59 @@ Dependency free, twig 3.x compatible template engine for Scala.
 Currently, in development.
 
 ## Implemented twig features
-| Tags       |     |
-|------------|-----|
-| apply      |     |
-| autoescape |     |
-| block      |     |
-| cache      |     |
-| deprecated |     |
-| do         |     |
-| embed      |     |
-| extends    |     |
-| flush      |     |
-| for        |     |
-| from       |     |
-| if         | X   |
-| import     |     |
-| include    |     |
-| macro      |     |
-| sandbox    |     |
-| set        |     |
-| use        |     |
-| verbatim   |     |
-| with       |     |
+| Tags       |     | Tags     |     |
+|------------|-----|----------|-----|
+| apply      |     | from     |     |
+| autoescape |     | if       | X   |
+| block      |     | import   |     |
+| cache      |     | include  |     |
+| deprecated |     | macro    |     |
+| do         |     | sandbox  |     |
+| embed      |     | set      |     |
+| extends    |     | use      |     |
+| flush      |     | verbatim |     |
+| for        |     | with     |     |
 
-| Tags             |     |
-|------------------|-----|
-| bs               |     |
-| batch            |     |
-| capitalize       |     |
-| column           |     |
-| convert_encoding |     |
-| country_name     |     |
-| currency_name    |     |
-| currency_symbol  |     |
-| data_uri         |     |
-| date             |     |
-| date_modify      |     |
-| default          |     |
-| escape           |     |
-| filter           |     |
-| first            |     |
-| format           |     |
-| format_currency  |     |
-| format_date      |     |
-| format_datetime  |     |
-| format_number    |     |
-| format_time      |     |
-| html_to_markdown |     |
-| inky_to_html     |     |
-| inline_css       |     |
-| join             | X   |
-| json_encode      |     |
-| keys             |     |
-| language_name    |     |
-| last             |     |
-| length           |     |
-| locale_name      |     |
-| lower            |     |
-| map              |     |
-| markdown_to_html |     |
-| merge            |     |
-| nl2br            |     |
-| number_format    |     |
-| raw              |     |
-| reduce           |     |
-| replace          |     |
-| reverse          |     |
-| round            |     |
-| slice            |     |
-| slug             |     |
-| sort             |     |
-| spaceless        |     |
-| split            |     |
-| striptags        |     |
-| timezone_name    |     |
-| title            |     |
-| trim             |     |
-| u                |     |
-| upper            |     |
-| url_encode       |     |
+| Filters          |     | Filters          |     |
+|------------------|-----|------------------|-----|
+| bs               |     | keys             |     |
+| batch            |     | language_name    |     |
+| capitalize       |     | last             |     |
+| column           |     | length           |     |
+| convert_encoding |     | locale_name      |     |
+| country_name     |     | lower            |     |
+| currency_name    |     | map              |     |
+| currency_symbol  |     | markdown_to_html |     |
+| data_uri         |     | merge            |     |
+| date             |     | nl2br            |     |
+| date_modify      |     | number_format    |     |
+| default          |     | raw              |     |
+| escape           |     | reduce           |     |
+| filter           |     | replace          |     |
+| first            |     | reverse          |     |
+| format           |     | round            |     |
+| format_currency  |     | slice            |     |
+| format_date      |     | slug             |     |
+| format_datetime  |     | sort             |     |
+| format_number    |     | spaceless        |     |
+| format_time      |     | split            |     |
+| html_to_markdown |     | striptags        |     |
+| inky_to_html     |     | timezone_name    |     |
+| inline_css       |     | title            |     |
+| join             | X   | trim             |     |
+| json_encode      |     | u                |     |
+| upper            |     | url_encode       |     |
 
-
-| Function             |     |
-|----------------------|-----|
-| attribute            |     |
-| block                |     |
-| constant             |     |
-| country_names        |     |
-| country_timezones    |     |
-| currency_names       |     |
-| cycle                |     |
-| date                 |     |
-| dump                 |     |
-| html_classes         |     |
-| include              |     |
-| language_names       |     |
-| locale_names         |     |
-| max                  |     |
-| min                  |     |
-| parent               |     |
-| random               |     |
-| range                | X   |
-| script_names         |     |
-| source               |     |
-| template_from_string |     |
-| timezone_names       |     |
+| Functions         |     | Functions            |     |
+|-------------------|-----|----------------------|-----|
+| attribute         |     | language_names       |     |
+| block             |     | locale_names         |     |
+| constant          |     | max                  |     |
+| country_names     |     | min                  |     |
+| country_timezones |     | parent               |     |
+| currency_names    |     | random               |     |
+| cycle             |     | range                | X   |
+| date              |     | script_names         |     |
+| dump              |     | source               |     |
+| html_classes      |     | template_from_string |     |
+| include           |     | timezone_names       |     |
